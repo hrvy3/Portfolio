@@ -1,0 +1,41 @@
+/*Paul Irisish Resets https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+    box-sizing: border-box; 
+    font-size: 10px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+/*Color constants 
+http://colormind.io/
+*/
+:root {
+    --font-primary: #d0dcc8;
+    --background-highlight: #368370;
+    --background-box: #0a2f37;
+    --background-acent: #f58a17;
+    --background-boarder: #ca220b;
+    --font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    background-color:#368370;
+    flex-flow: wrap;
+    font-family: Roboto;
+    color: black;
+    text-align: center;
+    padding: 5% 5% 5% 5%; 
+}
+
+.navbar {
+    display: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.top-promo-bar {
+    display: center;
+}
