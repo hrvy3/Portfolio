@@ -98,7 +98,7 @@ nav a {
         color: #fff;
         background: #262626;
         width: 50%;
-        transform: translate(100%)*
+        transform: translate(100%) **
     }
     .nav-links {
         opacity: 0; 
@@ -148,8 +148,6 @@ nav a {
 	font-family: 'Poppins', sans-serif;
 	line-height: 30px;
 }
-
-
 
 .my-work {
     display: flex;
