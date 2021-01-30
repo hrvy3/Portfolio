@@ -1,5 +1,4 @@
 /*Paul Irisish Resets https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-
 * {
     margin: 0;
     padding: 0;
@@ -22,16 +21,54 @@ http://colormind.io/
     --background-boarder: #ca220b;
     --font-family: 'Roboto';
 }
-* {
-	margin: 0;
-	padding: 0;
-}
-body {
-	text-align: center;
-}
 
-.main-container{
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+    display: flex;
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+    display: flex;
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+nav {
+    display: flex;
+	float: right;
+	line-height: 100px;
+}
+nav a {
+    display: flex;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 5px;
+	color: #fff;
+}
+.main-container {
+    display: flex;
     font-family: "roboto", sans-serif;
     padding: 20px; 
     background-color: #0a2f37;
+    background: cover;
+}
+.container1 {
+    display: flex;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+
+}
+.container2 {
+    display: flex;
+    text-align: center; 
+
 }
