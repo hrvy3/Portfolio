@@ -1,12 +1,15 @@
 /*Paul Irisish Resets https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 
-html {
-    box-sizing: border-box; 
-    font-size: 10px;
+* {
+    margin: 0;
+    padding: 0;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-}  
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
 
 /*Color constants 
 http://colormind.io/
@@ -19,23 +22,144 @@ http://colormind.io/
     --background-boarder: #ca220b;
     --font-family: 'Roboto';
 }
-
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
     display: flex;
-    background-color:#368370;
-    flex-flow: wrap;
-    font-family: Roboto;
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+    display: flex;
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+nav {
+    display: flex;
+	float: right;
+	line-height: 100px;
+}
+nav a {
+    display: flex;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 5px;
+	color: #fff;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    color: #fff;
+    margin: 5px;
+}
+@media screen and (max-width: 1024px){
+    .nav-links {
+        display: flex;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 4px;
+        font-size: 20px;
+        margin: 0 5px;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        display: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        background: #262626;
+        width: 50%;
+        transform: translate(100%)*
+    }
+    .nav-links {
+        opacity: 0; 
+    }
+    .burger {
+        display: block;
+    }
+}
+.banner-area {
+    display: flex;
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url(https://i.postimg.cc/T3B3WFcv/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner-area h2 {
+    display: flex;
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+    display: flex;
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 900px;
+}
+.content-area h2 {
+    display: flex;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+    display: flex; 
+	padding: 2% 0px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 30px;
+}
+
+
+
+.my-work {
+    display: flex;
     color: black;
     text-align: center;
-    padding: 5% 5% 5% 5%; 
+    padding: 0% 35% 0% 35%;
 }
+    .title {
+        display: flex;
+        text-align: center;
+        color: black;
+    }
 
-.navbar {
-    display: center;
-    background-color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-.top-promo-bar {
-    display: center;
-}
