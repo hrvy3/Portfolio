@@ -55,15 +55,25 @@ nav a {
 	color: #fff;
 }
 .main-container {
-    display: flex;
+    display: block flex; 
     font-family: "roboto", sans-serif;
     letter-spacing: 4px;
     font-size: 15px;
-    background-color: #0a2f37;
+    background-color:#f58a17; 
     background: cover;
     position: relative;
     margin: auto;
     width: auto;
     padding: 150px;
     text-align: center;
+}
+.main-container p {
+    letter-spacing: 3px;
+    line-height: inherit;
+}
+.container2 {
+    letter-spacing: 3px;
+    font-weight: bolder;
+
+
 }

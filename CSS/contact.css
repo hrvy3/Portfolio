@@ -24,10 +24,12 @@ http://colormind.io/
 }
 * {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     text-align: center;
+    font-family: "roboto" sans-serif
 }
 
 .wrapper {
@@ -62,8 +64,9 @@ nav a {
 	margin: 0 5px;
 	color: #fff;
 }
+
 input[type=text], select, textarea {
-    width: 100%;
+    width: 75%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -93,6 +96,7 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+   
   }
   
   .col-25 {
