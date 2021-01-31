@@ -29,10 +29,13 @@ http://colormind.io/
 body {
 	text-align: center;
 }
+
 .wrapper {
 	width: 1170px;
-	margin: 0 auto;
+	margin: 5px auto;
+	text-align: center;
 }
+
 header {
     display: flex;
 	height: 100px;
@@ -91,14 +94,15 @@ nav a {
 	top: 450px;
 	background: #ebebeb;
 	height: 900px;
+	
 }
 .content-area h2 {
-    display: flex;
+    display: auto;
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 4px;
 	padding-top: 30px;
 	font-size: 40px;
-	margin: 0;
+	margin: auto;
 }
 .content-area p {
     display: flex; 
