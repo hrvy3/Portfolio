@@ -27,5 +27,91 @@ http://colormind.io/
 	padding: 0;
 }
 body {
-	text-align: center;
+    text-align: center;
 }
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+    display: flex;
+	height: 100px;
+	background: #262626;
+	width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+.logo {
+    display: flex;
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+nav {
+    display: flex;
+	float: right;
+	line-height: 100px;
+}
+nav a {
+    display: flex;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 5px;
+	color: #fff;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:  #f58a17;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f58a17;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
