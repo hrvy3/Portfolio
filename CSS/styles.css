@@ -48,7 +48,6 @@ header {
 	float: left;
     line-height: 100px;
     color: #fff;
-
 }
 nav {
     display: flex;
@@ -119,4 +118,9 @@ nav a {
         text-align: center;
         color: black;
     }
-
+	.copyright{
+		background-color: #262626;
+		color: #fff;
+		font-family: "Poppins", sans-serif;
+	}
+	

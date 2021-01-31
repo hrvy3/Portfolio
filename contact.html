@@ -9,30 +9,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="logo">
-                <a href="index.html">Heather Vaccaro</a>
-            </div>
-            <nav>
-                <a href="contact.html">Contact</a>
-                <a href="aboutme.html">About Me</a>
-            </nav>
-        </div>
-    </header>
-    <h2>Lets get connected!</h2>
+<header>
+  <div class="wrapper">
+    <nav class="logo">
+      <a href="index.html">Heather Vaccaro</a>
+    </nav>
+    <nav>
+      <a href="contact.html">Contact</a>
+      <a href="aboutme.html">About Me</a>
+    </nav>
+  </div>
+</header>
+<main class="form">
+  <h2>Lets get connected!</h2>
     <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
     
-    <div class="container">
-      <form action="/action_page.php">
-        <div class="row">
-          <div class="col-25">
-            <label for="fname">First Name</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          </div>
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
         </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+      </div>
         <div class="row">
           <div class="col-25">
             <label for="lname">Last Name</label>
@@ -64,6 +65,7 @@
           <input type="submit" value="Submit">
         </div>
       </form>
+    </main>
     <footer>
          <div class="copyright">
             Copyright © Heather Vaccaro, RRT Web Developer Student

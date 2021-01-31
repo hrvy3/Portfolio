@@ -64,7 +64,9 @@ nav a {
 	margin: 0 5px;
 	color: #fff;
 }
-
+.form {
+  line-height: 40px;
+}
 input[type=text], select, textarea {
     width: 75%;
     padding: 12px;
@@ -117,5 +119,11 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
+  .copyright{
+    background-color: #262626;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+  }
+  
   
  
