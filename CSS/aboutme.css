@@ -68,21 +68,24 @@ nav a {
 	color: #fff;
 }
 .main-container {
-    display: block flex; 
+    display: block; 
     font-family: "roboto", sans-serif;
     letter-spacing: 4px;
     font-size: 15px;
-    background-image:linear-gradient(to right, #f58a17, #368370);
+    background-image:linear-gradient(to right, #f2f2f2, #368370);
     background: cover;
-    position: relative;
-    margin: auto;
-    width: auto;
-    padding: 150px;
+    padding: 150px 50px 20px 150px;
     text-align: center;
+    line-height: 50px;
+}
+.main-container h1 {
+    text-decoration: underline;
+    font-family: cursive;
 }
 .main-container p {
     letter-spacing: 3px;
-    line-height: inherit;
+    line-height: auto;
+    margin: flex;
 }
 .container1{
     font-weight: bold;
@@ -90,7 +93,7 @@ nav a {
 .container2 {
     letter-spacing: 3px;
     font-weight: bolder;
-    line-height: 10px;
+    line-height: auto;
 }
 .container2 p {
     line-height: 80px;
