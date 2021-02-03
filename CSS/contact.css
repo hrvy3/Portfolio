@@ -24,36 +24,39 @@ http://colormind.io/
 }
 * {
 	margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	padding: 0;
 }
 body {
-    text-align: center;
-    font-family: "roboto" sans-serif
+	text-align: center;
 }
 
 .wrapper {
 	width: 1170px;
-	margin: 0 auto;
+	margin: 5px auto;
+	text-align: center;
 }
+
 header {
     display: flex;
 	height: 100px;
 	background: #262626;
 	width: 100%;
-    z-index: 10;
+	z-index: 10;
     position: fixed;
+
 }
 .logo {
     display: flex;
 	width: 30%;
 	float: left;
-	line-height: 100px;
+    line-height: 100px;
+    color: #fff;
 }
 nav {
     display: flex;
 	float: right;
-	line-height: 100px;
+    line-height: 100px;
+ 
 }
 nav a {
     display: flex;
