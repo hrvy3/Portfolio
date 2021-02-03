@@ -22,6 +22,7 @@ http://colormind.io/
     --background-boarder: #ca220b;
     --font-family: 'Roboto';
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -78,22 +79,25 @@ nav a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	justify-content: center;
+
 }
 .banner-area h2 {
-    display: flex;
+    display: auto;
 	padding-top: 8%;
 	font-size: 70px;
-	font-family: 'Poppins', sans-serif;
+	font-family: cursive, sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 }
 .content-area {
-    display: flex;
+    display: block;
 	width: 100%;
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
 	height: 900px;
+	padding: 88px 20px 88px 20px;
 	
 }
 .content-area h2 {
