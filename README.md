@@ -1,7 +1,7 @@
 # Portfolio
 This is my very first website project. 
 
-I have attempted my best thus far and look forward to learning more about being a full stacked web developer. 
+I have attempted my best thus far and look forward to learning more so that I can become a strong independent full stacked web developer. 
 
 Some challenges I faced with this project
 -being patient with myself and learning

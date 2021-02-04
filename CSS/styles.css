@@ -115,7 +115,9 @@ nav a {
 }
 
 .carousel-size {
-	padding: 5px 50px 5px 50px;
+	width: 500;
+	height: 600px;
+	image-orientation: center;
 	
 }
 
